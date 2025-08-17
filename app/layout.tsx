@@ -41,7 +41,7 @@ export default function RootLayout({
             <AppSidebar />
             <main className="w-full">
               <Navbar />
-              <div className="px-4"> {children} </div>
+              <div className="px-4 pb-4"> {children} </div>
             </main>
             </SidebarProvider>
         </ThemeProvider>

@@ -37,13 +37,13 @@ export function DataTable<TData, TValue>({ columns, data, }: DataTableProps<TDat
 		data,
 		columns,
 		getCoreRowModel: getCoreRowModel(),
-		getPaginationRowModel: getPaginationRowModel(),
+		// getPaginationRowModel: getPaginationRowModel(),
 		getSortedRowModel: getSortedRowModel(),
 		onSortingChange: setSorting,
-		onRowSelectionChange:setRowSelection,
+		// onRowSelectionChange:setRowSelection,
 		state: {
 			sorting,
-			rowSelection
+			// rowSelection
 		},
 	});
 
@@ -115,7 +115,7 @@ export function DataTable<TData, TValue>({ columns, data, }: DataTableProps<TDat
 				>
 					Next
 				</Button> */}
-				<DataTablePagination table={table}/>
+				{/* <DataTablePagination table={table}/> */}
 			</div>
 		</div>
 	);
